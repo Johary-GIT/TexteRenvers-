@@ -1,0 +1,51 @@
+body {
+    font-family: "Helvetica Neue";
+    background-image: radial-gradient(circle at 0% 0% #b3d8dd 51%, #f1f2f7);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 205px;
+}
+
+input {
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    border-style: none;
+    background: rgba(174, 113, 231, 0.192);
+    margin-right: 10px;
+
+}
+
+button {
+    padding: 0;
+    font-family: "Times new Roman";
+    color: rgb(105, 134, 221);
+    font-size: 1.8rem;
+
+}
+
+label {
+    font-family: "Helvetica Neue";
+    color: grey;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-style: italic;
+    margin-right: 10px;
+    /*padding-top: 15px;*/
+}
+
+#message {
+    font-family: "Helvetica Neue";
+    color: grey;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-style: italic;
+    margin-right: 10px;
+    /*padding-top: 15px;*/
+}
